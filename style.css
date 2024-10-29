@@ -1,0 +1,86 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 20px;
+    padding: 0;
+    background-color: burlywood;
+}
+
+h1 {
+    text-align: center;
+    color: black;
+    font-weight: bolder;
+}
+
+form {
+    max-width: 600px; /* Add units */
+    margin: auto;
+    background-color: antiquewhite;
+    border-radius: 8px;
+    box-shadow: 1px 4px 8px rgba(0, 0, 0, 0.6);
+    padding: 22px;
+}
+
+fieldset {
+    border: 2px solid rgb(52, 16, 117);
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: aliceblue; 
+}
+
+legend {
+    font-weight: bold;
+    text-align: left;
+    color: black;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+    color: black;
+}
+
+input, textarea {
+    width: calc(100% - 16px); /* Adjust for padding and border */
+    padding: 8px;
+    margin-top: 4px;
+    border: 1px solid #3489bd;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto; /* Center button */
+    margin-right: auto; /* Center button */
+    width: 80%;
+    padding: 20px 40px;
+    background-color: red;
+    color: black;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10px;
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+button:hover {
+    background-color: #66b1e6;
+}
+
+#resumeOutput {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    border: 2px solid #3489bd;
+    border-radius: 8px;
+    background-color: burlywood;
+    box-shadow: 1px 4px 8px rgba(0, 0, 0, 0.6);
+}
+
+#resumeOutput h2 {
+    color: #2c3e50;
+}
